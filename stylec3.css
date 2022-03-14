@@ -1,0 +1,332 @@
+html {
+ font-size: 62.5%;/*make the font-size to 10px*/
+ font-family:'Open sans', sans-serif;
+}
+ 
+.container, .pcontainer, .ccontainer {
+    margin: 0 auto;
+    padding: 0;
+    background-color: white;
+    width: 500px;
+    height: 700px;
+    display: flex;
+    flex-flow:column nowrap;
+}
+.image_description {
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    border-bottom:1px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutme {
+    background-color: white;
+    width:500px;
+    height: 200px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+}
+.portofolio {
+    background-color: white;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.exemple {
+    background-color: white;
+    width:500px;
+    height: 200px;
+    border: 1px solid lightgrey;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 9px -5px black;
+    
+    
+}
+.exampleimage img{
+    margin-top: 40px;
+    width: 250px;
+    height: 160px;
+    border: 1px solid lightgrey;
+    border-bottom-right-radius: 12px;
+    border-top-left-radius: 12px;
+    
+}
+.exempleimage {
+    display: felx;
+    align-self: flex-end;
+}
+.portret {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.description {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+        justify-content: flex-start;
+    flex-direction: wrap;
+}
+.namedescription {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-style: bold;
+}
+b {
+    margin-top:15px;
+       
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+span.material-icons {
+  font-size: 10px;
+}
+.about {
+    width: 250px;
+}
+/*.about p {
+    margin:'5px';
+}*/
+.pastexperience p{
+    margin: 3px; 
+}
+.pastexperience h4 {
+    margin: 10px 0 0 0;
+}
+.exampledescript {
+    padding: 20px;
+    margin: 0px;
+
+}
+.exampledescript h4 {
+    margin:10px 0px 0px 0px;
+}
+p {
+    margin: 0 0 10px 0;
+}
+/*.pastexperience {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.pastexperience h3{
+    margin-bottom: 0px;
+}*/
+ .pheader h1, .pheader p, .pheader b {
+     text-align: center;
+ }
+ .pcontainer .pheader, .cheader {
+     margin-bottom: 20px;
+     display: flex;
+     flex-direction: column;
+ }
+ .pheader p {
+     padding-left: 120px;
+     padding-right: 120px;
+ }
+ .pfirstexample img{
+     border:1px solid lightgrey;
+     border-top-left-radius: 12px;
+     border-bottom-right-radius: 12px;
+     height: 160px;
+     width: 250px;
+     margin-top: 40px;
+ }
+ .pfirstexample {
+     border:1px solid lightgrey;
+     border-radius: 12px;
+     width: 500px;
+     height: 200px;
+     display: flex;
+     justify-content:space-around;
+     align-items: center;
+     box-shadow:0px 0px 9px -5px black ;
+     margin-bottom: 20px;
+ }
+.pdescription {
+    padding: 20px;
+}
+.psecondexample {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    
+}
+.psecondexample .p1, .psecondexample .p2 {
+    height:400px;
+    width:240px;
+    border: 1px solid lightgrey;
+    margin-bottom: 20px;
+    
+}
+.psecondexample .p3, .psecondexample .p4 {
+    height:180px;
+    width: 240px;
+    border: 1px solid lightgrey;
+}
+.psecondexample .p1, .psecondexample .p2,
+.psecondexample .p3, .psecondexample .p4 {
+    border-radius:12px;
+    box-shadow:0px 0px 9px -5px black ;
+}
+.p1 {
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+.p1 img {
+    width:220px;
+    height: 180px;
+    border-bottom-right-radius: 12px;
+    border-top-left-radius: 12px;
+    align-self: flex-end;
+    justify-self: flex-end;/* it should be positioned in the right corner of p1 container
+    but it doesn't respond to command*/ 
+    /* I can position it in a different way but i think it's easier this way*/
+    
+}
+.p1 p.plast{
+    padding-bottom: 50px;
+}
+.p1 p, .p1 h4, .p1 p.plast, .p1 span {
+    padding-left: 20px;
+}
+.p1 span {
+    font-size: 24px;
+    padding: 20px;
+}
+.p2{
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+.p2 img {
+    width:220px;
+    height: 180px;
+    border-bottom-right-radius: 12px;
+    border-top-left-radius: 12px;
+    align-self: flex-end;
+    justify-self: flex-end;/* it should be positioned in the right corner of p1 container
+    but it doesn't respond to command*/ 
+    /* I can position it in a different way but i think it's easier this way*/
+    
+}
+.p2 p.plast{
+    padding-bottom: 50px;
+}
+.p2 p, .p2 h4, .p2 p.plast, .p2 span, .p3 p, .p3 h4, .p3 p.plast, .p3 span,
+.p4 p, .p4 h4, .p4 p.plast, .p4 span {
+    padding-left: 20px;
+}
+.p2 span {
+    font-size: 24px;
+    padding: 20px;
+}
+.p3, .p4 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    
+}
+.p3 span, .p4 span {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.cinput {
+    padding-bottom: 30px;
+    border:1px solid lightgrey;
+    border-radius: 12px;
+    box-shadow:0px 0px 9px -5px black ;
+    height: 500px;
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+
+}
+td {
+   border-bottom: 1px solid lightgrey; 
+}
+td, th , label{
+    font-size: 15px;
+    text-align: left;
+}
+input {
+    border:none;
+}
+textarea {
+    border:none;
+    border-bottom: 1px solid lightgrey;
+}
+table {
+    margin-top: 40px;
+}
+th {
+    padding-bottom: 20px;
+    padding-top:5px;
+}
+td {
+    padding-bottom: 10px;
+}
+.cheader p {
+    padding-right: 120px;
+    font-size: 12px;
+}
+.callbuttons {
+    width: 500px;
+    height:140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.cbutton {
+    border:1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow:0px 0px 9px -5px black ;
+    width: 100px;
+    height: 60px;
+    margin-right: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cfooter {
+    padding-top: 15px;
+    margin-top: 20px;
+    border-top: 1px solid lightgrey;
+}
+.cinput button {
+    border:none;
+    background-color: white;
+}
+.cbutton a{
+    font-size: 14px;
+    margin-left: 3px;
+    font-weight: bold;
+    
+}
+.ctitle {
+    padding: 10px;
+    
+}
+
+
